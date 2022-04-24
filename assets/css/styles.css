@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'juralight';
+  src: url('../fonts/jura-variablefont_wght-webfont.woff2') format('woff2'),
+    url('../fonts/jura-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::selection {
+  background: pink;
+}
+
+::-moz-selection {
+  background: pink;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a0a0a;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+html {
+  overflow: hidden;
+  background-color: #0a0a0a;
+}
+
+body {
+  font-family: 'juralight', sans-serif;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 130%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #f5f5f5 !important;
+}
+
+@media screen and (max-width: 1088px) {
+  body {
+    font-size: 100%;
+  }
+}
+
+.animate__delay-00 {
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.animate__delay-01 {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+
+.animate__delay-02 {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+.animate__delay-03 {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+.animate__delay-04 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animate__delay-05 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.animate__delay-06 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.animate__delay-07 {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.animate__delay-08 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+
+#fp-nav {
+  display: none;
+}
+
+.container {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1088px) {
+  #fp-nav {
+    display: block !important;
+  }
+
+  .is-size-0 {
+    font-size: 3rem;
+  }
+
+  .is-size-125 {
+    font-size: 1.25rem;
+  }
+
+  .icons {
+    padding: 4em !important;
+  }
+}
+
+.modal-content {
+  padding: 2rem;
+}
+
+.modal-content .content {
+  max-height: 400px;
+  overflow-y: scroll !important;
+}
+
+li i {
+  margin-right: 10px;
+  transition: color .3s;
+  color: #29a0af;
+}
+
+li a {
+  color: #dedede;
+}
+
+li a:hover,
+li a i:hover {
+  transition: color .3s;
+}
+
+a.project_link {
+  transition: .3s;
+  color: #dedede;
+}
+
+a:hover {
+  color: #fff;
+}
+
+#project_container i {
+  color: #29a0af;
+}
+
+#project_container a:hover i {
+  color: red;
+}
+
+a:hover i.gb {
+  color: #c9510c;
+}
+
+a:hover i.ln {
+  color: #0e76a8;
+}
+
+a:hover i.tr {
+  color: #0084b4;
+}
+
+a:hover i.rt {
+  color: #61dbfb;
+}
+
+a:hover i.ns {
+  color: #68a063;
+}
+
+a:hover i.pn {
+  color: #edd455;
+}
+
+a:hover i.h5 {
+  color: #e34c26;
+}
+
+a:hover i.cs {
+  color: #ff8a27;
+}
+
+a:hover i.as {
+  color: #edd455;
+}
+
+a:hover i.jt {
+  color: #f0db4f;
+}
+
+a:hover i.el {
+  color: #af296d;
+}
+
+.footer {
+  font-size: 80%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#fp-nav li:last-of-type {
+  display: none;
+}
+
+#section4 {
+  background: #0a0a0a;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/*
+THIS HELPED HERE: https://github.com/alvarotrigo/fullPage.js/issues/4288
+#fp-nav li:nth-of-type(1) {
+  display: none;
+}
+*/
