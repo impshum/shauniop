@@ -39,14 +39,14 @@
 
     <div class="slide_section" id="section0">
       <div class="container">
-        <h1 id="shuffler" class="title is-size-1-desktop is-size-3-touch">Shaun Kollannur</h1>
-        <h2 class="subtitle animate__animated animate__faster animate__fadeInLeft is-size-4-desktop is-size-5-touch">All-Star Dev, Code Fanatic, Machine Learning Enthusiast & Researcher</h2>
+        <h1 id="shuffler" class="title is-size-1-desktop is-size-3-touch has-text-white">Shaun Kollannur</h1>
+        <h2 class="subtitle animate__animated animate__faster animate__fadeInLeft is-size-4-desktop is-size-5-touch has-text-white">All-Star Dev, Code Fanatic, Machine Learning Enthusiast & Researcher</h2>
       </div>
     </div>
 
     <div class="slide_section" id="section1">
       <div class="container">
-        <h3 class="title is-size-2-desktop is-size-4-touch">Skills</h3>
+        <h3 class="title is-size-2-desktop is-size-4-touch has-text-white">Skills</h3>
         <ul>
           <li class="animate__animated animate__faster"><a target="_blank" rel="noreferrer" href="https://python.org"><i class="fa-brands fa-python pn"></i>Python</a></li>
           <li class="animate__animated animate__faster"><a target="_blank" rel="noreferrer" href="https://whatwg.org"><i class="fa-brands fa-html5 h5"></i>HTML</a></li>
@@ -61,7 +61,7 @@
 
     <div class="slide_section" id="section2">
       <div class="container">
-        <h4 class="title is-size-2-desktop is-size-4-touch">Projects</h4>
+        <h4 class="title is-size-2-desktop is-size-4-touch has-text-white">Projects</h4>
         <ul>
           <li class="animate__animated animate__faster">
             <a class="project_link" data-title="Smart children safety system in school bus transport using RFID and android (Child Tracker)" data-start_date="May 2017" data-end_date="Oct 2017"
@@ -105,7 +105,7 @@
 
     <div class="slide_section" id="section3">
       <div class="container">
-        <h5 class="title is-size-2-desktop is-size-4-touch">Contact</h5>
+        <h5 class="title is-size-2-desktop is-size-4-touch has-text-white">Contact</h5>
         <ul class="soc">
           <li class="animate__animated animate__faster"><a href="mailto:shaunkollannur@gmail.com"><i class="el fa-md fa-solid fa-envelope"></i>Email</a></li>
           <li class="animate__animated animate__faster"><a target="_blank" rel="noreferrer" href="https://github.com/shauniop"><i class="gb fa-md fa-brands fa-github-square"></i>Github</a></li>
@@ -117,11 +117,35 @@
 
     <div class="slide_section fp-auto-height" id="section4">
       <div class="container">
-        <p class="has-text-centered is-size-7">Made with a keyboard</p>
+        <p class="has-text-centered is-size-7 has-text-white">Made with a keyboard</p>
       </div>
     </div>
 
   </div> <!-- / FULLPAGE CONTAINER -->
+
+  <div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="card">
+        <div class="card-content">
+          <div class="content has-text-black">
+            <p id="modal_title" class="title is-size-4"></p>
+            <p class="subtitle"><small><span id="modal_start_date"></span> – <span id="modal_end_date"></span></small></p>
+            <p id="modal_info" class="is-size-6"></p>
+          </div>
+          <div class="columns is-mobile is-centered">
+            <div class="column is-hidden">
+              <a id="modal_url" class="button has-text-weight-semibold is-fullwidth is-light" target="_blank" rel="noreferrer" href=""><i class="fa-md fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="column">
+              <button class="button has-text-weight-semibold modal-close-button is-fullwidth is-light"><i class="fa-md fa-solid fa-times"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
 
   <script src="assets/js/fullpage.min.js"></script>
   <script src="assets/js/shuffle-text.min.js"></script>
