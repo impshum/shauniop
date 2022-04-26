@@ -125,25 +125,26 @@
 
   <div id="modal" class="modal">
     <div class="modal-background"></div>
-    <div class="modal-content">
-      <div class="card">
-        <div class="card-content">
-          <div class="content has-text-black">
-            <p id="modal_title" class="title is-size-4"></p>
-            <p class="subtitle"><small><span id="modal_start_date"></span> – <span id="modal_end_date"></span></small></p>
-            <p id="modal_info" class="is-size-6"></p>
+
+    <div class="modal-card">
+      <div class="modal-card-body">
+
+        <div class="content has-text-black">
+          <p id="modal_title" class="title is-size-4"></p>
+          <p class="subtitle"><small><span id="modal_start_date"></span> – <span id="modal_end_date"></span></small></p>
+          <p id="modal_info" class="is-size-6"></p>
+        </div>
+        <div class="columns is-mobile is-centered">
+          <div class="column is-hidden">
+            <a id="modal_url" class="button has-text-weight-semibold is-fullwidth is-light" target="_blank" rel="noreferrer" href=""><i class="fa-md fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
-          <div class="columns is-mobile is-centered">
-            <div class="column is-hidden">
-              <a id="modal_url" class="button has-text-weight-semibold is-fullwidth is-light" target="_blank" rel="noreferrer" href=""><i class="fa-md fa-solid fa-arrow-up-right-from-square"></i></a>
-            </div>
-            <div class="column">
-              <button class="button has-text-weight-semibold modal-close-button is-fullwidth is-light"><i class="fa-md fa-solid fa-times"></i></button>
-            </div>
+          <div class="column">
+            <button class="button has-text-weight-semibold modal-close-button is-fullwidth is-light"><i class="fa-md fa-solid fa-times"></i></button>
           </div>
         </div>
       </div>
     </div>
+
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
 
