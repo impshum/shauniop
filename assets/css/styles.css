@@ -172,16 +172,13 @@ a.project_link {
   color: #dedede;
 }
 
+a.project_link:hover i {
+  transition: .3s;
+  color: #23d160;
+}
+
 a:hover {
   color: #fff;
-}
-
-#project_container i {
-  color: #29a0af;
-}
-
-#project_container a:hover i {
-  color: red;
 }
 
 a:hover i.gb {
