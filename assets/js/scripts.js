@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     navigationPosition: 'right',
     //navigationTooltips: ['0', '1', '2', '3'],
     onLeave: function(origin, destination, direction) {
-      console.log(origin);
+      //console.log(origin);
       if (destination.item.getElementsByClassName('title')[0]) {
         new ShuffleText(destination.item.getElementsByClassName('title')[0]).start();
       }
@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
   get_json('projects')
     .then((res) => {
-      console.log(res);
+      //console.log(res);
       let projects_html = '';
       for (var i = 0; i < res.length; i++) {
-        console.log(res[i]);
+        //console.log(res[i]);
         projects_html += `<li class="animate__animated animate__faster">
           <a class="project_link" data-title="${res[i].title}" data-start_date="${res[i].start_date}" data-end_date="${res[i].end_date}"
             data-info="${res[i].info}"
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
       const modal = $trigger.dataset.target;
       const $target = document.getElementById(modal);
-      console.log($target);
+      //console.log($target);
 
       $trigger.addEventListener('click', () => {
         openModal($target);
